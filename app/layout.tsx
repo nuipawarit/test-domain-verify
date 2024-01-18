@@ -23,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <GTM />
+        {children}
       </body>
       {/* <GoogleTagManager gtmId="GTM-MJ3629V5" /> */}
     </html>
